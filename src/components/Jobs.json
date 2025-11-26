@@ -1,0 +1,88 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "type": "Full-Time",
+      "description": "Design and develop highly responsive and interactive web applications using Vue.js and modern JavaScript frameworks. Collaborate with designers and backend developers to implement UI components, optimize performance, and ensure cross-browser compatibility. Stay updated with emerging frontend technologies and best practices to deliver cutting-edge solutions.",
+      "location": "Bangalore, India",
+      "salary": "$100k - $125k",
+      "company": {
+        "name": "TechNova Solutions",
+        "description": "TechNova Solutions is a leading software development company specializing in web technologies and digital transformation. With a strong focus on innovation, we deliver scalable and secure solutions for global clients. Our team thrives on creativity, collaboration, and cutting-edge technology to build products that redefine user experience.",
+        "contactEmail": "hr@technova.com",
+        "contactPhone": "+91-9876543210"
+      }
+    },
+    {
+      "type": "Contract",
+      "title": "UI/UX Designer",
+      "description": "Create visually appealing and user-friendly interfaces while enhancing overall user experience. Conduct user research, develop wireframes, and design prototypes that align with client requirements. Collaborate with developers to ensure seamless implementation of design elements across platforms.",
+      "salary": "$100k - $125k per annum",
+      "location": "Remote",
+      "company": {
+        "name": "DesignHub",
+        "description": "DesignHub is a creative agency focused on digital design and branding. We craft visually stunning and intuitive user experiences that help businesses stand out in the digital landscape. Our team combines creativity with data-driven insights to deliver designs that resonate with users and drive engagement.",
+        "contactEmail": "jobs@designhub.com",
+        "contactPhone": "+91-9988776655"
+      },
+      "id": "3"
+    },
+    {
+      "id": "6",
+      "title": "DevOps Engineer",
+      "type": "Full-Time",
+      "description": "Implement and manage CI/CD pipelines to streamline software deployment processes. Monitor and maintain cloud infrastructure, ensuring scalability, security, and reliability. Collaborate with development teams to automate workflows and optimize system performance.",
+      "location": "Chennai, India",
+      "salary": "$125k - $150k",
+      "company": {
+        "name": "CloudOps Solutions",
+        "description": "CloudOps Solutions specializes in cloud automation and DevOps practices. We empower businesses to accelerate software delivery through robust CI/CD pipelines and scalable infrastructure. Our team is passionate about building secure, efficient, and future-ready systems for modern enterprises.",
+        "contactEmail": "jobs@cloudops.com",
+        "contactPhone": "+91-9556677889"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Mobile App Developer",
+      "type": "Full-Time",
+      "description": "Develop high-quality mobile applications for Android and iOS platforms using Flutter. Work on UI design, API integration, and performance optimization to deliver seamless user experiences. Stay updated with mobile development trends and ensure compliance with platform guidelines.",
+      "location": "Pune, India",
+      "salary": "$90k - $100k",
+      "company": {
+        "name": "Appify Technologies",
+        "description": "Appify Technologies is a mobile app development company serving global clients. We specialize in creating intuitive, high-performance applications that deliver exceptional user experiences. Our team combines technical expertise with creative design to build apps that stand out in competitive markets.",
+        "contactEmail": "hr@appify.com",
+        "contactPhone": "+91-9667788990"
+      }
+    },
+    {
+      "id": "8",
+      "title": "QA Engineer",
+      "type": "Contract",
+      "description": "Perform comprehensive manual and automated testing to ensure software quality and reliability. Develop test plans, execute test cases, and report defects to development teams. Collaborate with stakeholders to maintain high standards of product performance and user satisfaction.",
+      "location": "Remote",
+      "salary": "$70k - $80k",
+      "company": {
+        "name": "QualityFirst",
+        "description": "QualityFirst is a leading provider of software testing and quality assurance services. We help businesses deliver flawless products by implementing rigorous testing methodologies and automation frameworks. Our commitment to excellence ensures that every product meets the highest standards of reliability.",
+        "contactEmail": "careers@qualityfirst.com",
+        "contactPhone": "+91-9887766554"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Cybersecurity Specialist",
+      "type": "Full-Time",
+      "description": "Protect organizational systems and data by implementing robust cybersecurity measures. Monitor networks for vulnerabilities, respond to security incidents, and enforce compliance with security protocols. Stay informed about emerging threats and develop strategies to mitigate risks.",
+      "location": "Gurgaon, India",
+      "salary": "$150k - $175k",
+      "company": {
+        "name": "SecureNet",
+        "description": "SecureNet is a cybersecurity solutions provider dedicated to safeguarding enterprise systems and data. We offer advanced threat detection, risk management, and compliance services to protect businesses from evolving cyber threats. Our team of experts ensures security without compromising performance.",
+        "contactEmail": "jobs@securenet.com",
+        "contactPhone": "+91-9776655443"
+      }
+    }
+  ]
+}
