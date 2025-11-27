@@ -2,7 +2,7 @@
     <div class="card-container" :style="{backgroundColor:bg}">
        <div class="card-content"><h2>{{ title }}</h2>
        <p>{{ subTitle }}</p>
-       <RouterLink to="anchorLink">{{jobTags}}</RouterLink></div>
+       <RouterLink :to="anchorLink">{{jobTags}}</RouterLink></div>
     </div>
 </template>
 
