@@ -1,5 +1,5 @@
 <template>
-    <section class="goback"><div class="container"> <GoBackComponent /></div></section>
+    <section class="goback"><div class="container"> <GoBackComponent v-on:backFunction="goBackFuntion"/></div></section>
    
    <section>
 <div v-if="selectedRoute">
@@ -15,14 +15,19 @@ import Jobpage from "@/components/Jobpage.vue";
  
 import { computed, onMounted, ref } from "vue";
 import axios from "axios";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 import GoBackComponent from "@/components/GoBackComponent.vue";
  
 const route=useRoute()
+const router=useRouter()
  
 const Id = computed(() => route.params.id)
  
 const jobData=ref([])
+
+const goBackFuntion=()=>{
+  router.push("/jobs")
+}
  
 onMounted(async()=>{
     try{

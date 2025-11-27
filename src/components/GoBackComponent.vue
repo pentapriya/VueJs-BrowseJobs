@@ -1,7 +1,6 @@
 <template>
-    <RouterLink to="/jobs">Back </RouterLink>
+    <button @click="$emit('backFunction')">Go Back</button>
 </template>
-<script>
-import { RouterLink } from 'vue-router';
+<script setup>
 
 </script>
